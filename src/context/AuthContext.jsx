@@ -17,7 +17,7 @@ export const AuthContextProvider = ({children}) =>{
         user: null
     })
 
-    useEffect(()=>{
+    useEffect(()=>{0
         const user = localStorage.getItem('user');
 
         if(user){
