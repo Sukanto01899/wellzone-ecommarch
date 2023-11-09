@@ -3,12 +3,12 @@
 const fetchApi = {};
 
 fetchApi.get =async  (endPoint)=>{
-     const res = await fetch(`http://localhost:5000/api/${endPoint}`);
+     const res = await fetch(`https://wellzonebd.onrender.com/${endPoint}`);
      const data = res.json();
      return data;
 }
 fetchApi.post =async (endPoint, body)=>{
-     const res =await fetch(`http://localhost:5000/api/${endPoint}`, {
+     const res =await fetch(`https://wellzonebd.onrender.com/${endPoint}`, {
         method: "POST",
         credentials: "include",
         headers: {
