@@ -14,7 +14,7 @@ import Home from './pages/Home';
 function App() {
   const {pathname} = useLocation();
   // Base api
-  axios.defaults.baseURL = "https://wellzonebd.onrender.com/"
+  axios.defaults.baseURL = "https://wellzonebd.onrender.com/api"
   if(pathname.includes('/admin')){
     return <>
     <Routes>
