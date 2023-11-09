@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "prohor normal";
+  src: url("../public//font/Li\ Alinur\ Prohor\ Unicode.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "prohor italic";
+  src: url("/font/Li\ Alinur\ Prohor\ Unicode\ Italic.ttf");
+  font-style: italic;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
